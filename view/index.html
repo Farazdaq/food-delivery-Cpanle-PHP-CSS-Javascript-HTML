@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Cpanel</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel=”stylesheet” href=”https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css”/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <link rel='stylesheet' type='text/css' media='screen' href='index.css'>
+  <script src="https://www.gstatic.com/charts/loader.js"></script>
+</head>
+
+
+<body>
+  <div>
+  <nav id="nav" class="navbar navbar-expand-md bg-dark navbar-dark">
+    <div > <button onclick="displaymenu()" class="toggle" type="button" data-toggle="collapse" >
+      <span class="navbar-toggler-icon"></span>
+    </button></div>
+   <div>  
+    
+   </div>
+ <div class="lables-div">
+    <a class="welcome"> Welcome,</a>
+    <a class="name"> Farazdaq Ahmed</a>
+ </div> 
+ <input  class="search" type="text" placeholder="Search">
+  <div class="icons-div">
+    <i class="bi bi-bell-fill"></i>
+    <i class="bi bi-chat-square-fill"></i>
+  </div>
+  </nav>
+</div>
+  <div id="idmenu" class="menu"> 
+   
+    <ul class="iconslist" >
+      <i class="bi bi-person-circle"></i> <hr  color="aliceblue"> 
+      <li class="li1"><i class="bi bi-house-door-fill"></i>Dashboard</li> <hr class="hrline" color="aliceblue"> 
+      <li class="li2"><i class="bi bi-menu-button-wide"></i>Menu</li> <hr class="hrline" color="aliceblue"> 
+      <li class="li3"><i class="bi bi-cart-fill"></i>Orders</li> <hr class="hrline"  color="aliceblue"> 
+      <li class="li4"><i class="bi bi-people-fill"></i>Users</li> <hr class="hrline" color="aliceblue"> 
+      <li class="li5"><i class="bi bi-bicycle"></i>Delivery Agents</li> <hr class="hrline" color="aliceblue"> 
+      <li class="li6"><i class="bi bi-box-arrow-up-right"></i>Website</li> <hr class="hrline" color="aliceblue">  
+      <a class="Total-earn">TOTAL EARNINGS</a>
+      <i class="bi bi-bank"></i>
+      <i class="bi bi-arrow-up"><a>$20.00.00</a></i>
+      <select name="select" >
+        <option value="volvo">Today</option>
+        <option value="saab">Yestarday</option>
+      </select>
+    </ul>
+  </div>
+  
+  <div class="containerchart">
+ <div class="main-chart-div">
+     <div  class="child"> 
+      <a class="t1">Sells</a>
+      <div  id="myChart1"  ></div>
+     </div>
+      <div class="child"> 
+        <a class="t1">Total orders</a>
+        <div id="myChart2"  >
+        </div>
+      </div>
+    
+<div  class="child">  
+  <a class="t1">New users</a>
+  <div id="myChart3" >
+  </div>
+</div>
+      
+       </div>
+  </div>
+
+  <a class="t1">Trending orders</a>
+<div class="container">
+  <div class="trend-dive-continer"> 
+  <div class="trend-div-item">
+  <img class="image-div" >
+      <div><a class="tre-info1"> xxxxxxxxx</a></div>
+      <div><a class="tre-info2"> $32.00</a></div>
+    
+        <div class="div-ino">
+          <a class="tre-info3"> Orders</a>
+          <a class="tre-info5"> 56</a>
+        </div>
+       <div class="div-ino"> 
+        <a class="tre-info4"> Income</a>
+        <a class="tre-info6"> $230.00</a>
+       </div>
+
+      
+    </div> 
+    <div class="trend-div-item">
+      <img class="image-div" >
+          <div><a class="tre-info1"> xxxxxxxxx</a></div>
+          <div><a class="tre-info2"> $32.00</a></div>
+        
+            <div class="div-ino">
+              <a class="tre-info3"> Orders</a>
+              <a class="tre-info5"> 56</a>
+            </div>
+           <div class="div-ino"> 
+            <a class="tre-info4"> Income</a>
+            <a class="tre-info6"> $230.00</a>
+           </div>
+    
+          
+        </div> 
+        <div class="trend-div-item">
+          <img class="image-div" >
+              <div><a class="tre-info1"> xxxxxxxxx</a></div>
+              <div><a class="tre-info2"> $32.00</a></div>
+            
+                <div class="div-ino">
+                  <a class="tre-info3"> Orders</a>
+                  <a class="tre-info5"> 56</a>
+                </div>
+               <div class="div-ino"> 
+                <a class="tre-info4"> Income</a>
+                <a class="tre-info6"> $230.00</a>
+               </div>
+        
+              
+            </div> 
+            <div class="trend-div-item">
+              <img class="image-div" >
+                  <div><a class="tre-info1"> xxxxxxxxx</a></div>
+                  <div><a class="tre-info2"> $32.00</a></div>
+                
+                    <div class="div-ino">
+                      <a class="tre-info3"> Orders</a>
+                      <a class="tre-info5"> 56</a>
+                    </div>
+                   <div class="div-ino"> 
+                    <a class="tre-info4"> Income</a>
+                    <a class="tre-info6"> $230.00</a>
+                   </div>
+            
+                  
+                </div> 
+  </div>
+</div>
+
+
+<div class="table-placed">
+ 
+  <table id="customers">
+    <h3 class="hh">RECENTLY PLACED ORDERS</h3>
+    <tr>
+      <th>Order ID</th>
+      <th>Order Name</th>
+      <th>Customer Name</th>
+      <th>Location</th>
+      <th>Order Status</th>
+      <th>Delivered Time</th>
+      <th>Price</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>French Fries</td>
+      <td>Jhon Leo</td>
+      <td>New Town</td>
+      <td>Pending</td>
+      <td>10:05</td>
+      <td>$10.00</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Mango Pie</td>
+      <td>Kristien</td>
+      <td>Old Town</td>
+      <td>Cancelled</td>
+      <td>14:05</td>
+      <td>$9.00</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Fried Egg Sandwich</td>
+      <td>Jack Suit</td>
+      <td>Oxford Street</td>
+      <td>Delivered</td>
+      <td>12:05</td>
+      <td>$19.00</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Lemon Yogurt Parfait</td>
+      <td>Alesdro Guitto</td>
+      <td>Church hill</td>
+      <td>Delivered</td>
+      <td>12:05</td>
+      <td>$18.00</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Spicy Grill Sandwich</td>
+      <td>Jacob Sahwny</td>
+      <td>Palace Road</td>
+      <td>Delivered</td>
+      <td>12:05</td>
+      <td>$21.00</td>
+      
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Chicken Sandwich</td>
+      <td>Peter Gill</td>
+      <td>Street 21</td>
+      <td>Pending</td>
+      <td>12:05</td>
+      <td>$15.00</td>
+    </tr>
+   
+  </table>
+</div>   
+
+
+</div>
+
+
+
+
+       
+        
+      
+        
+        
+
+
+  
+  <script src='index.js'></script>
+</body>
+</html>
